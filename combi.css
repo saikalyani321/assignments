@@ -1,0 +1,46 @@
+a:hover{
+    color: green;
+}
+a:active{
+    background-color: black;
+}
+a:link{
+    color: red;
+}
+.links:visited{
+    font-style:italic;
+}
+h2:hover{
+    background-color: blueviolet;
+}
+h2:active{
+    text-decoration: underline;
+}
+.links :nth-child(2){
+    color: brown; 
+}
+nav li:nth-child(3){
+    background-color: red;
+}
+.paragraphs :nth-child(3){
+    color: blueviolet;
+}
+input :focus{
+    border: 2px solid red;
+}
+.item::first-letter{
+    font-size: x-large;
+    color:deeppink;
+}
+h1::first-line{
+    font-style: italic;
+}
+h2::before{
+    text-decoration-style: double;
+}
+.paragraphs:nth-child(1){
+    color: chartreuse;
+}
+.paragraphs:nth-child(2){
+    color: red;
+}
